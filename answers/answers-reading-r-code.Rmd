@@ -3,7 +3,7 @@ title: 'Answers to "reading R code"'
 ---
 
 ```{r eval=FALSE}
-highest <- geo$name[ head(order(geo$lat, decreasing=TRUE), n=10) ]
+highest <- geo$name[head(order(geo$lat, decreasing = TRUE), n = 10)]
 ```
 
 All examples of:
